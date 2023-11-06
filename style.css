@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #274360;
+}
+
+.container{
+    padding: 2.5em;
+    max-width: 100vw;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em;
+}
+
+#index{
+    height: calc(100vh - 168px);
+    width: 100vw;
+}
+
+.img-carrosel{
+    width: 70vw;
+    height: 70vh;
+}
+
+.carousel-inner{
+    width: 100vw;
+    height: 100%;
+}
+
+.carousel-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
